@@ -10,6 +10,6 @@ class users {
   }
   borrow(bookIborrow) {
     this.borrowBooks.push(bookIborrow);
-    alert("You borrowing book name ${bookIborrw.name}.");
+    alert("You borrowing book name {bookIborrw.name}.");
   }
 }
