@@ -2,14 +2,14 @@ class users {
   firstName;
   lastName;
   city;
-  borrowBooks;
   constructor(firstName, lastName, city) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.city = city;
+    this.borrowBooks = [];
   }
-  borrow() {
-    this.borrowBooks.push(this.borrowBooks);
-    alert("You borrowing book name ${this.borrowBooks.name}.");
+  borrow(bookIborrow) {
+    this.borrowBooks.push(bookIborrow);
+    alert("You borrowing book name ${bookIborrw.name}.");
   }
 }
