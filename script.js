@@ -8,8 +8,8 @@ class users {
     this.city = city;
     this.borrowBooks = [];
   }
-  borrow(bookIborrow) {
-    this.borrowBooks.push(bookIborrow);
-    alert("You borrowing book name {bookIborrw.name}.");
+  borrowingBook() {
+    this.borrowBooks.push(borrowableBook);
+    alert("You borrowing book name {borrowableBook.name}.");
   }
 }
