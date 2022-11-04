@@ -6,10 +6,10 @@ class users {
     this.firstName = firstName;
     this.lastName = lastName;
     this.city = city;
-    this.borrowBooks = [];
+    this.borrowingBook = [];
   }
-  borrowingBook() {
-    this.borrowBooks.push(borrowableBook);
+  borrowingBooks(namebook) {
+    this.borrowingBook.push(namebook);
     alert("You borrowing book name {borrowableBook.name}.");
   }
 }
